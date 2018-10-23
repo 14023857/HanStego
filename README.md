@@ -7,10 +7,13 @@ exactly like the original carrier text. You may then send the stego-text via tex
 Stego-Text Elements 
 =================
 Carrier Text: Chinese (may include other languages that is supported by Unicode) 
+
 Secret Message: Uppercase/lowercase letters, special symbols, numbers. 
+
 A common key is required during the embedding & extracting process. 
 
 Others
 =========
 Programming Language: Java
+
 Text Encoding: Unicode 
