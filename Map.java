@@ -31,10 +31,10 @@ public class Map {
             case 8:
             case 9:
             case 10:
-                f = new File("map" + this.key + ".txt");
+                f = new File("map/map" + this.key + ".txt");
                 break;
             default:
-                f = new File("map.txt");
+                f = new File("map/map.txt");
                 break;
         }
         return f;
