@@ -51,16 +51,7 @@ public class Embed extends Steganography{
         
         splitSecret = secret.split("");
         bitToUnicode = new String[splitSecret.length][2]; 
-        
-//        for(int i=0; i<secretSize; i++){
-//                secretToBit[i][0] = splitSecret[i];
-//                for(int j=0; j<mapSize; j++){
-//                    if(secretToBit[i][0].equals(map[j][0])){
-//                        secretToBit[i][1] = map[j][1];
-//                    }
-//                }
-//        }
-//        
+
         
         for(int i=0; i<splitSecret.length; i++){
             for(int j=0; j<mapSize; j++){
@@ -94,9 +85,9 @@ public class Embed extends Steganography{
             bitToUnicode[i][1] = noPrintUnicode;
         }
         
-        //Stores characters of cover text in EVEN number of array
         
         
+        //Stores characters of cover text in EVEN number of array, secret msg in ODD numbers 
         stegoTextArr = new String[stegoTextSize];
         splitCover = cover.split("");
         int count = 0;
