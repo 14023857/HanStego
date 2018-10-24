@@ -2,7 +2,7 @@
 package HanStegoV2;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
+
 
 public class Embed extends Steganography{
 
