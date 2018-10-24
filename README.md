@@ -1,8 +1,7 @@
 About 
 ======
-HanStego is a Chinese text steganography software used to hide confidential messages in a Chinese carrier text. 
-You may input your secret message and desired carrier text into the software and generate a stego-text that looks
-exactly like the original carrier text. You may then send the stego-text via text, email or save it in your computer. 
+HanStego is a Chinese text steganography software used to hide confidential messages in a Chinese carrier text. This software uses non-printing Unicode characters to hide secret messages in the orignial carrier text without altering its appearance. 
+To use the software, download the "hanstego_GUI.zip" folder, unzip and run the Java executable applet. 
 
 Stego-Text Elements 
 =================
@@ -17,3 +16,4 @@ Others
 Programming Language: Java
 
 Text Encoding: Unicode 
+
